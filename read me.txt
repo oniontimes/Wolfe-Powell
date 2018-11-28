@@ -1,0 +1,11 @@
+使用方法：
+1.在matlab中同时打开test_function.m和WolfePowell.m
+2.输入：
+alpha_=1
+rho=0.25
+sigma=0.5
+x=[2,2]
+d=[-1,-1]
+WolfePowell(alpha_,rho,sigma,@test_function,x,d)
+ 
+3.本程序是基于基于Wolfe-Powell的非精确一维搜索
